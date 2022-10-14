@@ -1,0 +1,64 @@
+nav
+{
+    display: flex;
+    padding-left: 30px;
+}
+h1{
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+color: #333333;
+}
+img 
+{
+    padding-top: 40px;
+    width: 100%;
+}
+.text-design {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+.p-design {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.btn 
+{
+    padding: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.btn-dark
+{
+    background-color: #333;
+    color: wheat;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .container
+    {
+
+        display: flex;
+        justify-content: space-between;
+        gap:30px;
+    }
+}
