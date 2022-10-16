@@ -15,14 +15,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
   <title>Devchallenges</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
   <nav class="nav-items">
-    <h1>THIS INTERIOR</h1>
-    <span class="material-symbols-outlined">
+    <h2 class="head-logo">THIS INTERIOR</h2>
+    <span class="material-symbols-outlined" onclick="return toggle()">
       menu
     </span>
+    <ul class="list-items">
+      <li class="list-item">
+        Home
+      </li>
+      <li class="list-item">
+        Collection
+      </li>
+      <li class="list-item">
+        About
+      </li>
+    </ul>
   </nav>
   <section class="first-section">
     <h1>Modern Interior</h1>
@@ -30,7 +42,7 @@
       A full-Service residential & commercial interior design and staging company offering professional organizing &
       eco-services.
     </p>
-    <div>
+    <div class="readmore">
       <span>Read More</span>
       <span class="material-symbols-outlined">
         arrow_forward
@@ -38,14 +50,22 @@
     </div>
   </section>
   <section class="image-content">
-    <img src="./photo1.png" alt="dd"/>
+    <img src="./photo1.png" alt="dd" />
     <section class="card">
-      <img src="./photo2.png"/>
-      <h2>Chandra Bhatt</h2>
-      <span>Web Developer</span>
-      <p>Designed in 2020 by Aliza Webber</p>
+      <div class="card-header">
+        <img src="./photo2.png" class="card-img" />
+        <div>
+          <h4>Chandra Bhatt</h4>
+          <span>Web Developer</span>
+        </div>
+      </div>
+      <div>
+        <p class="card-body">Designed in 2020 by Chandra Bhatt</p>
+      </div>
     </section>
   </section>
+  <footer>created by username - devChallenges.io</footer>
+  <script src="app.js"></script>
 </body>
 
 </html>
