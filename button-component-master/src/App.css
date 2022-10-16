@@ -1,0 +1,46 @@
+body
+{
+  background-color: aliceblue;
+}
+
+.row
+{
+  display: flex;
+  gap: 10px;
+}
+.col
+{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.button
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.copy:hover
+{
+  animation:handleClick all 2s;
+  background-color: rebeccapurple;
+}
+
+@keyframes handleClick {
+  0%
+  {
+    transform: rotate(30deg);
+  }
+  49%
+  {
+    transform: scale(0.99);
+  }
+
+  100%
+  {
+   transform: scale(1);
+  }
+}
