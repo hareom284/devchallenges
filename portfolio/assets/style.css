@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: #ffffff;
+    /* color: #828282; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about_me {
+    background-color: #F4f4f4;
+    justify-self: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 12px;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+.content img {
+    border-radius: 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* background-color: rebeccapurple; */
+}
+
+.header .first_header h3
+{
+    font-size: 30px;
+    font-style: bold;
+}
+.header .first_header p
+{
+    font-size: 24px;
+    font-style: bold;
+}
+.header .contact {
+    align-self: space-between;
+    line-height: 20px;
+}
+
+.header .contact div {
+    padding: 14px;
+}
+
+.header .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile_detail article {
+    font-style: normal;
+    color: #1b1414;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.skills
+{
+    display: grid;
+}
+
+.skills .skills-section
+{
+    display: flex;
+    gap: 30px;
+    /* outline: red 10px solid; */
+}
+
+.skills .skills-section .skill-btn
+{
+  width: 70px;
+  height: 40px;
+  transform: skew(-20deg);
+  background-color: aqua;
+  padding: 10px 20px;
+  box-shadow: 0px 3px 3px 3px rgba(37,21,125,0.75);
+  margin: 20px;
+}
